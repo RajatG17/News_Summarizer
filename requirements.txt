@@ -1,0 +1,20 @@
+# Agent framework
+google-adk
+
+# RSS parsing
+feedparser>=6.0.0
+
+# LLM client(s)
+# Gemini
+google-cloud-aiplatform
+# OpenAI GPT
+openai
+
+# Email sending
+aiosmtplib  # an async SMTP client
+
+# Config maagement
+python-dotenv
+
+# Scheduling library for in-Python scheduling
+schedule
