@@ -1,10 +1,15 @@
 
 import requests_mock
-import os
+import os, sys
 from dotenv import load_dotenv
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), "..")))
+
 # Load environment variables from .env file
-print(os.getcwd())
-env_path = os.path.join(os.getcwd(), "config/.env")
+
+current_dir = os.path.dirname(os.path.abspath(__file__))
+# Navigate up to the project root, then into config/.env
+env_path = os.path.join(current_dir, "..", "config", ".env")
 if not os.path.exists(env_path):
     raise FileNotFoundError(f"Environment file {env_path} not found.")
 else:
