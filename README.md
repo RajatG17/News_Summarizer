@@ -59,8 +59,7 @@ source venv/bin/activate   # macOS/Linux
     EMAIL_SMTP_PORT=587
     EMAIL_SMTP_USER=your_username
     EMAIL_SMTP_PASS=your_password
-    EMAIL_FROM=you@domain.com      # optional
-    EMAIL_TO=recipient@domain.com
+    TO_EMAIL=recipient@domain.com
     </pre>
 
 ### Usage
