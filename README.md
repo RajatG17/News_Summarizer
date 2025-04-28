@@ -32,7 +32,7 @@ A simple Python-based news aggregation agent that fetches top headlines, summari
 Clone the repo
 
 <pre>git clone https://github.com/rajatg17/News_Summarizer.git
-cd news-aggregator</pre>
+cd News_Summarizer</pre>
 
 ### Create & activate a virtual environment
 

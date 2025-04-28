@@ -5,7 +5,7 @@
 *.pyc
 *.log
 /.vscode
-
+.DS_Store
 # dirs
 venv/
 config/
