@@ -1,6 +1,6 @@
 dotenv
 requests
 llama-cpp-python
-smtplib
+
 pytest
 
