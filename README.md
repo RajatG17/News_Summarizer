@@ -1,5 +1,5 @@
 
-# News Aggregator
+# News Summarizer
 
 A simple Python-based news aggregation agent that fetches top headlines, summarizes them using a local LLM (Gemma-3-12B via llama-cpp), and emails a daily digest. You can schedule it via cron for fully automated delivery.
 
